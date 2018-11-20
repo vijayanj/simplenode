@@ -39,7 +39,7 @@ vijayan/simplenode:
     - npm install
 
   Env:
-    - PORT: 3000
+    - PORT: 80
 
   Exec:
-- /usr/bin/nodejs app.js
+- /usr/bin/nodejs index.js
